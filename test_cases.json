@@ -1,0 +1,52 @@
+[
+  {
+    "task": "Create a simple function that adds two numbers and returns the result",
+    "language": "Python",
+    "criteria": "Function should be named 'add', accept two parameters, include a docstring, and return the sum of the two numbers"
+  },
+  {
+    "task": "Parse a JSON string and extract specific key-value pairs",
+    "language": "JSON",
+    "criteria": "Output should be valid JSON format, demonstrate nested object access, include at least 3 key-value pairs, and show proper JSON syntax with quotes and commas"
+  },
+  {
+    "task": "Write a Python script that reads a CSV file and filters rows based on a condition",
+    "language": "Python",
+    "criteria": "Use the csv module or pandas, implement a filtering condition, handle file I/O exceptions, and return or display the filtered results"
+  },
+  {
+    "task": "Create a C# class that implements a simple shopping cart with add and remove item methods",
+    "language": "C#",
+    "criteria": "Include proper class structure, implement at least two methods (add and remove), use appropriate data types (List or Dictionary), include error handling, and follow C# naming conventions"
+  },
+  {
+    "task": "Build a Python decorator that measures and logs the execution time of a function",
+    "language": "Python",
+    "criteria": "Use the functools.wraps decorator, implement timing functionality using time module, preserve function metadata, handle both sync functions and return values correctly"
+  },
+  {
+    "task": "Create a complex JSON schema with nested objects, arrays, and validation rules",
+    "language": "JSON",
+    "criteria": "Include nested objects and arrays, demonstrate proper schema structure, include type definitions, show required fields, and include pattern validation for at least one field"
+  },
+  {
+    "task": "Implement a Python context manager for database connection handling with automatic cleanup",
+    "language": "Python",
+    "criteria": "Use __enter__ and __exit__ methods, handle exceptions properly, ensure resources are cleaned up, support the 'with' statement, and include error logging"
+  },
+  {
+    "task": "Create a C# async method that fetches data from multiple APIs concurrently and aggregates results",
+    "language": "C#",
+    "criteria": "Use async/await pattern, implement Task.WhenAll for concurrent execution, handle HTTP requests properly, include error handling for failed requests, and return aggregated data"
+  },
+  {
+    "task": "Build a Python metaclass that enforces type checking on class attributes and method parameters",
+    "language": "Python",
+    "criteria": "Implement a custom metaclass, override __new__ or __init__, enforce type annotations, validate method parameters at runtime, include custom error messages"
+  },
+  {
+    "task": "Design a comprehensive C# event-driven system with custom events, delegates, and subscriber pattern implementation",
+    "language": "C#",
+    "criteria": "Define custom EventArgs classes, implement event publishers and subscribers, use proper delegate syntax, handle event unsubscription to prevent memory leaks, and demonstrate event raising and handling"
+  }
+]
